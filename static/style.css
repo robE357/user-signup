@@ -3,7 +3,11 @@ body{
 
     background-color: rgb(61, 63, 75);
   }
-  
+  .error{ 
+    color: red;
+  }
+
+
   .wrapper{
     width:420px;
     margin: auto;
@@ -19,7 +23,7 @@ body{
     margin:0px;
   }
   
-  label, input{
+  label, input, .submittal{
     font:13px Open Sans;
     color:rgb(235, 241, 241);
     text-shadow:#000 0px 1px 5px;
@@ -41,7 +45,7 @@ body{
     justify-content: center;
   }
 
-  .form-item, .submittal {
+  .form-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +56,7 @@ body{
   }
   
 
-  .form-control{
+  .form-control, .success{
     width:25%;
     padding:15px 0px 15px 8px;
     border-radius:5px;
@@ -66,4 +70,8 @@ body{
   }
   
   .submit{color: #000;}
+
+  .success {
+    font-size: x-large;
+  }
  
