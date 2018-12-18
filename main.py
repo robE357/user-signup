@@ -19,7 +19,8 @@ def isvalid(value):
 
 def validemail(email):
     checker = r'(\w+[.|\w])*@(\w+[.])*\w+'
-
+    if email == "":
+        return True
     if 0 > len(email) < 3:
         return False
     if len(email) > 20:
